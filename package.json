@@ -1,7 +1,7 @@
 {
   "name": "express-skeleton-3",
   "version": "1.0.0",
-  "description": "A Skeleton Application",
+  "description": "A skeleton application for quickly starting an Express.js project.",
   "engines": {
     "node": ">=14"
   },
@@ -25,7 +25,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/express-skeleton.git"
+    "url": "https://github.com/LogicSquare-1996/Node-JS-Scalaton.git"
   },
   "dependencies": {
     "agenda": "^4.2.1",
