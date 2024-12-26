@@ -121,8 +121,8 @@ License 📜
 This project is licensed under the MIT License. Feel free to use it for your own projects.
 
 Contact 📧
-Author: Kiran Debnath
-Email: kiran@logic-square.com
-GitHub: LogicSquare-1996
+- Author: Kiran Debnath
+- Email: kiran@logic-square.com
+- GitHub: LogicSquare-1996
 
 Start building your next Node.js project with Express Skeleton today! 🎉

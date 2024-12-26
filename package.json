@@ -1,6 +1,6 @@
 {
   "name": "create-ls-node-app",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "CLI tool to create a preconfigured node js scalaton project",
   "main": "index.js",
   "bin": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LogicSquare-1996/Node-JS-Scalaton.git"
+    "url": "https://github.com/LogicSquare-1996/node-js-scalaton.git"
   },
   "dependencies": {
     "fs-extra": "^11.2.0",
