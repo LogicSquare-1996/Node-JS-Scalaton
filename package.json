@@ -1,6 +1,6 @@
 {
   "name": "ls-scalaton-node-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI tool to create a preconfigured node js scalaton project",
   "main": "index.js",
   "bin": {
