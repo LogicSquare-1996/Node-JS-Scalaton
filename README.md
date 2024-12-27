@@ -15,39 +15,48 @@ The Express Skeleton is a powerful and customizable starting point for creating 
 
 ## Installation ⚙️
 
-### Using npm
+Create a directory:
+``` bash
+    mkdir <directory_name>
+```
+Open the terminal from the directory or in VS Code or any code editor.
+
+
+### Using npx
 ```bash
-npm i create-ls-node-app
+npx create-ls-node-app
 
 ```
-
-
+This will:-
 Download the project files.
 Install all dependencies.
 Set up the initial folder structure.
-Navigate into the project directory:
-``` bash
-cd <project-name>
-```
-Cloning the Repository 🛠️
-``` bash
-git clone https://github.com/LogicSquare-1996/Node-JS-Scalaton.git
-```
-``` bash
-cd Node-JS-Scalaton
-```
-``` bash
-npm install
-```
+
 Getting Started 🚦
 Running the Server
 Set up environment variables:
+create .env file:-
+``` bash
+touch .env
+```
 
 Copy the sample environment file:
 ``` bash
 cp env.SAMPLE .env 
 ```
 Update values in the .env file as per your configuration. 
+Add secret(e.g: logic-square) in env file
+
+###NOTE:- Sometimes the express-jwt version automatically Upadted to current version but need to change to "^6.1.1". 
+This is the command:-
+``` bash
+    npm i express-jwt@6.1.1
+```
+
+Currently we are using mongodb as localhost(Change it  accordingly your Database):-
+``` bash
+    MONGODB_CONNECTION_STRING="mongodb://localhost:27017/skeleton-3"
+```
 
 Start the development server:
 
