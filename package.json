@@ -1,6 +1,6 @@
 {
   "name": "ls-scalaton-node-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI tool to create a preconfigured node js scalaton project",
   "main": "index.js",
   "bin": {
@@ -15,9 +15,9 @@
   },
   "dependencies": {
     "fs-extra": "^11.2.0",
-    "child_process":"^1.0.2",
+    "child_process": "^1.0.2",
     "colors": "^1.4.0",
-    "copyfiles": "^2.4.1" 
+    "copyfiles": "^2.4.1"
   },
   "keywords": [
     "node.js",
@@ -26,9 +26,9 @@
     "mongod"
   ],
   "files": [
-  "bin/",
-  "templates/"
-],
+    "bin/",
+    "templates/"
+  ],
   "author": "Logic Square Technology",
   "license": "MIT",
   "bugs": {
