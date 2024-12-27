@@ -44,9 +44,17 @@ function installDependencies(dest) {
   }
 
   try {
-    // Run 'npm install' in the destination directory
     execSync('npm install', { stdio: 'inherit', cwd: dest });
     console.log('Dependencies installed successfully!'.green);
+  
+    // Install dependencies inside templates folder
+    const templatePath = path.join(dest, 'templates');
+    const templatePackageJson = path.join(templatePath, 'package.json');
+    if (fs.existsSync(templatePackageJson)) {
+      console.log('Installing dependencies for the template project...'.yellow);
+      execSync('npm install', { stdio: 'inherit', cwd: templatePath });
+      console.log('Template dependencies installed successfully!'.green);
+    }
   } catch (error) {
     console.error('Failed to install dependencies:'.red, error.message);
     process.exit(1);
