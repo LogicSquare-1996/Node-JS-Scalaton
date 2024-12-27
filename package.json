@@ -1,6 +1,6 @@
 {
   "name": "create-ls-node-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI tool to create a preconfigured node js scalaton project",
   "main": "index.js",
   "bin": {
@@ -26,11 +26,11 @@
     "express",
     "mongod"
   ],
- "files": [
-  "bin/",
-  "templates/",
-  "templates/**/*"
-],
+  "files": [
+    "bin/",
+    "templates/",
+    "templates/**/*"
+  ],
   "author": "Logic Square Technology",
   "license": "MIT",
   "bugs": {
