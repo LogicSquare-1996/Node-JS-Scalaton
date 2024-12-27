@@ -1,5 +1,5 @@
 {
-  "name": "ls-scalaton-node-app",
+  "name": "create-ls-node-app",
   "version": "1.0.3",
   "description": "CLI tool to create a preconfigured node js scalaton project",
   "main": "index.js",
@@ -7,7 +7,8 @@
     "create-ls-node-app": "bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node bin/index.js"
   },
   "repository": {
     "type": "git",
@@ -25,10 +26,11 @@
     "express",
     "mongod"
   ],
-  "files": [
-    "bin/",
-    "templates/"
-  ],
+ "files": [
+  "bin/",
+  "templates/",
+  "templates/**/*"
+],
   "author": "Logic Square Technology",
   "license": "MIT",
   "bugs": {
