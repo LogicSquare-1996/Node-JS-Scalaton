@@ -24,7 +24,7 @@ Open the terminal from the directory or in VS Code or any code editor.
 
 ### Using npx
 ```bash
-npx node-scalaton-app-LS
+npx node-scalaton-app-ls
 
 ```
 This will:-

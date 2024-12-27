@@ -1,10 +1,10 @@
 {
-  "name": "node-scalaton-app-LS",
+  "name": "node-scalaton-app-ls",
   "version": "1.0.0",
   "description": "CLI tool to create a preconfigured node js scalaton project",
   "main": "index.js",
   "bin": {
-    "node-scalaton-app-LS": "bin/index.js"
+    "node-scalaton-app-ls": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
