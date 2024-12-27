@@ -24,7 +24,7 @@ Open the terminal from the directory or in VS Code or any code editor.
 
 ### Using npx
 ```bash
-npx create-ls-node-app
+npx node-scalaton-app-LS
 
 ```
 This will:-
@@ -71,7 +71,10 @@ Folder Structure 🗂️
 ``` bash
 express-skeleton-3/
 │
+├── agenda/           # Agenda jobs
 ├── bin/              # Server entry point
+├── email/            # Email definition
+├── lib/              # Lib file
 ├── models/           # Database schemas
 ├── routes/           # API endpoints
 ├── public/           # Static assets
@@ -133,5 +136,6 @@ Contact 📧
 - Author: Kiran Debnath
 - Email: kiran@logic-square.com
 - GitHub: LogicSquare-1996
+- Contributor: Mrinal Bera
 
 Start building your next Node.js project with Express Skeleton today! 🎉
